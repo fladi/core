@@ -40,6 +40,3 @@ node('SLAVE') {
         step([$class: 'JUnitResultArchiver', testResults: 'tests/autotest-external-results-sqlite-smb-silvershell.xml'])
         step([$class: 'JUnitResultArchiver', testResults: 'tests/autotest-external-results-sqlite-swift-ceph.xml'])
 }
-
-
-
